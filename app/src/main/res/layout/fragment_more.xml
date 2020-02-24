@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_title"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/colorPrimary">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="更多"
+                android:textColor="@color/white"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/tv_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:button="@null"
+                android:padding="8dp"
+                android:text="退出"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_map_setting"
+            style="@style/TextNornal"
+            android:layout_width="match_parent"
+            android:background="@drawable/item_click"
+            android:clickable="true"
+            android:drawableRight="@mipmap/arrow_right"
+            android:padding="@dimen/dp_10"
+            android:text="地图参数设置" />
+
+        <include layout="@layout/view_line" />
+
+        <TextView
+            android:id="@+id/tv_download"
+            style="@style/TextNornal"
+            android:layout_width="match_parent"
+            android:background="@drawable/item_click"
+            android:clickable="true"
+            android:drawableRight="@mipmap/arrow_right"
+            android:padding="@dimen/dp_10"
+            android:text="在线地图下载" />
+
+        <include layout="@layout/view_line" />
+
+        <TextView
+            android:id="@+id/tv_favorites"
+            style="@style/TextNornal"
+            android:layout_width="match_parent"
+            android:background="@drawable/item_click"
+            android:clickable="true"
+            android:drawableRight="@mipmap/arrow_right"
+            android:padding="@dimen/dp_10"
+            android:text="收藏夹" />
+
+        <include layout="@layout/view_line" />
+
+        <TextView
+            android:id="@+id/tv_map_type"
+            style="@style/TextNornal"
+            android:layout_width="match_parent"
+            android:background="@drawable/item_click"
+            android:clickable="true"
+            android:drawableRight="@mipmap/arrow_right"
+            android:padding="@dimen/dp_10"
+            android:text="选择地图" />
+
+        <include layout="@layout/view_line" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btn_logout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="退出登录" />
+    </LinearLayout>
+</ScrollView>

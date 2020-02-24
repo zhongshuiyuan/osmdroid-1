@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/shape_input"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_5_dp">
+
+    <TextView
+        android:id="@+id/tv_jczh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="交叉桩号："
+        android:textColor="@color/textColor" />
+
+    <TextView
+        android:id="@+id/tv_gygcmc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="改移工程名称："
+        android:textColor="@color/textColor" />
+
+    <TextView
+        android:id="@+id/tv_jcjd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="交叉角度（度）："
+        android:textColor="@color/textColor" />
+</LinearLayout>
+

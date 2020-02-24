@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fileexport/fileexport.iml" filepath="$PROJECT_DIR$/fileexport/fileexport.iml" />
+      <module fileurl="file://$PROJECT_DIR$/litpal/litpal.iml" filepath="$PROJECT_DIR$/litpal/litpal.iml" />
+      <module fileurl="file://$PROJECT_DIR$/map/map.iml" filepath="$PROJECT_DIR$/map/map.iml" />
+      <module fileurl="file://$PROJECT_DIR$/osmdroid.iml" filepath="$PROJECT_DIR$/osmdroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/videoplayer/videoplayer.iml" filepath="$PROJECT_DIR$/videoplayer/videoplayer.iml" />
+    </modules>
+  </component>
+</project>

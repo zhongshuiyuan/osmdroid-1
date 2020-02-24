@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckedTextView
+            android:id="@+id/tv_name"
+            style="@style/TextNornal"
+            android:layout_width="match_parent"
+            android:drawableLeft="@mipmap/mianji"
+            android:drawableRight="@drawable/btn_arrow_selector"
+            android:drawablePadding="@dimen/dimen_5_dp"
+            android:padding="10dp"
+            android:text="北京"
+            android:textColor="@color/textColor" />
+    </LinearLayout>
+
+    <com.huejie.osmdroid.view.AllShowListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="@dimen/dimen_15_dp"
+        android:visibility="gone"></com.huejie.osmdroid.view.AllShowListView>
+
+</LinearLayout>

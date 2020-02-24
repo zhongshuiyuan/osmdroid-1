@@ -1,0 +1,1 @@
+include ':app', ':litpal', ':fileexport', ':map', ':videoplayer'

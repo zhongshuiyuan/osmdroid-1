@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorPrimary">
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_local"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="-1dp"
+                android:background="@drawable/check_unread"
+                android:button="@null"
+                android:checked="true"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingTop="6dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="6dp"
+                android:text="本地"
+                android:textColor="@drawable/selector_color"
+                android:textSize="@dimen/sp_14" />
+
+            <RadioButton
+                android:id="@+id/rb_inline"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/check_read"
+                android:button="@null"
+                android:gravity="center"
+                android:paddingLeft="20dp"
+                android:paddingTop="6dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="6dp"
+                android:text="在线"
+                android:textColor="@drawable/selector_color"
+                android:textSize="@dimen/sp_14" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/iv_tb"
+            android:layout_width="45dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:scaleType="center"
+            android:src="@mipmap/tongbu"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.github.jdsjlzx.recyclerview.LRecyclerView
+            android:id="@+id/recycleView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="vertical"></com.github.jdsjlzx.recyclerview.LRecyclerView>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="@style/mProgress_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateDuration="1200"
+            android:visibility="gone" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:padding="@dimen/dimen_10_dp">
+
+    <ImageView
+        android:id="@+id/iv_video_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/music_icon" />
+
+    <LinearLayout
+        android:layout_width="@dimen/dimen_0_dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dimen_20_dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5_dp"
+            android:ellipsize="middle"
+            android:singleLine="true"
+            android:text="2017-11-12"
+            android:textColor="@color/delect_color"
+            android:textSize="@dimen/text_size_16_sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5_dp"
+            android:layout_marginBottom="@dimen/dimen_5_dp"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/tv_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017-11-12"
+                android:textColor="@color/delect_color"
+                android:textSize="@dimen/text_size_14_sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:descendantFocusability="blocksDescendants" />
+
+</LinearLayout>

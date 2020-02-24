@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="btn_normal">#51A4E2</color>
+    <color name="btn_press">#97CAEE</color>
+    <color name="background_tab_pressed">#6633B5E5</color>
+</resources>

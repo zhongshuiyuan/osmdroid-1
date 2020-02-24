@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_top"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        style="@style/TextNornal"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/dp_10"
+        android:gravity="right"
+        android:text="附件"
+        android:textSize="@dimen/sp_16" />
+
+    <EditText
+        android:id="@+id/et_port"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_input"
+        android:hint="请输入"
+        android:padding="@dimen/dp_10"
+        android:text="8092" />
+</LinearLayout>
+

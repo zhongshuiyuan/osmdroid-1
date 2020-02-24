@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_15_dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/TextNornal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="新建工点"
+        android:textSize="@dimen/text_size_18_sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="现中心桩号："
+            android:textColor="@color/textColor" />
+
+        <EditText
+            android:id="@+id/et_xzxzh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5_dp"
+            android:background="@drawable/shape_input"
+            android:hint="请输入"
+            android:padding="@dimen/dimen_5_dp"
+            android:textSize="@dimen/sp_14" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="结构物名称："
+            android:textColor="@color/textColor" />
+
+        <EditText
+            android:id="@+id/et_jgwmc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5_dp"
+            android:background="@drawable/shape_input"
+            android:hint="请输入"
+            android:padding="@dimen/dimen_5_dp"
+            android:textColor="@color/textColor"
+            android:textSize="@dimen/sp_14" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/rl_choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_10"
+        android:orientation="horizontal"
+        android:paddingTop="@dimen/dp_10"
+        android:paddingBottom="@dimen/dp_10">
+
+        <TextView
+            style="@style/TextNornal"
+            android:text="记录簿" />
+
+        <TextView
+            android:id="@+id/tv_choose"
+            style="@style/TextNornal"
+            android:layout_width="match_parent"
+            android:layout_alignParentRight="true"
+            android:drawableRight="@mipmap/arrow_right"
+            android:ellipsize="end"
+            android:gravity="right"
+            android:maxLines="1"
+            android:text="请选择" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_60_dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btn_cancel"
+            style="@style/TextNornal"
+            android:background="@drawable/shape_input"
+            android:paddingLeft="@dimen/dimen_15_dp"
+            android:paddingTop="@dimen/dimen_5_dp"
+            android:paddingRight="@dimen/dimen_15_dp"
+            android:paddingBottom="@dimen/dimen_5_dp"
+            android:text="取消" />
+
+        <TextView
+            android:id="@+id/btn_confirm"
+            style="@style/TextNornal"
+            android:layout_marginLeft="@dimen/dp_10"
+            android:background="@drawable/shape_input"
+            android:paddingLeft="@dimen/dimen_15_dp"
+            android:paddingTop="@dimen/dimen_5_dp"
+            android:paddingRight="@dimen/dimen_15_dp"
+            android:paddingBottom="@dimen/dimen_5_dp"
+            android:text="确定" />
+    </LinearLayout>
+</LinearLayout>
+

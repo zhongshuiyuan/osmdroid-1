@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen_15_dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/TextNornal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="新建文件夹"
+        android:textSize="@dimen/text_size_18_sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_5_dp"
+        android:background="@drawable/shape_input"
+        android:hint="请输入"
+        android:padding="@dimen/dimen_5_dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10_dp"
+            android:paddingLeft="@dimen/dimen_15_dp"
+            android:paddingTop="@dimen/dimen_5_dp"
+            android:paddingRight="@dimen/dimen_15_dp"
+            android:paddingBottom="@dimen/dimen_5_dp"
+            android:text="取消" />
+
+        <TextView
+            android:id="@+id/btn_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_10_dp"
+            android:paddingLeft="@dimen/dimen_15_dp"
+            android:paddingTop="@dimen/dimen_5_dp"
+            android:paddingRight="@dimen/dimen_15_dp"
+            android:paddingBottom="@dimen/dimen_5_dp"
+            android:text="确定" />
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".project.recordbook.activity.RecordBookActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/title_layout"
+            layout="@layout/layout_title" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/ll_download"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dimen_5_dp"
+                    android:background="@drawable/shape_input"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dp_10">
+
+                    <TextView
+                        style="@style/TextNornal"
+                        android:text="选择要下载的文件"
+                        android:textSize="@dimen/sp_16"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <CheckBox
+                            android:id="@+id/cb_sl"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:drawablePadding="@dimen/dimen_5_dp"
+                            android:gravity="center"
+                            android:text="矢量文件" />
+
+                        <CheckBox
+                            android:id="@+id/cb_dt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:drawablePadding="@dimen/dimen_5_dp"
+                            android:gravity="center"
+                            android:text="地图文件" />
+
+                        <CheckBox
+                            android:id="@+id/cb_qt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:drawablePadding="@dimen/dimen_5_dp"
+                            android:gravity="center"
+                            android:text="其它文件" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="@dimen/dimen_5_dp"
+                    android:background="@drawable/shape_input"
+                    android:orientation="vertical"
+                    android:padding="@dimen/dp_10">
+
+                    <TextView
+                        style="@style/TextNornal"
+                        android:layout_marginBottom="@dimen/dimen_5_dp"
+                        android:text="选择选择记录薄类型"
+                        android:textSize="@dimen/sp_16"
+                        android:textStyle="bold" />
+
+                    <ListView
+                        android:id="@+id/listViewDownload"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:scrollbars="none"></ListView>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"></ListView>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

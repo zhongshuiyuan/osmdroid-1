@@ -1,0 +1,1155 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:190:9-198:20
+	android:grantUriPermissions
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:194:13-47
+	android:authorities
+		INJECTED from D:\project\osmdroid\app\src\main\AndroidManifest.xml
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:192:13-64
+	android:exported
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:193:13-37
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:191:13-67
+manifest
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:2:1-208:12
+INJECTED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:2:1-208:12
+INJECTED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:2:1-208:12
+INJECTED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:2:1-208:12
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\4d496fea07dfd9cb4502b7ad01c96c8a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.jdsjlzx:LRecyclerView:1.5.4.3] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\9f842f6729f162c75e51e145e2d76ea9\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\cdda1869d5104d69b1e3848526fd440f\AndroidManifest.xml:17:1-24:12
+MERGED from [pub.devrel:easypermissions:2.0.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\5a878b2137b23226fd76da3f36b08aa5\AndroidManifest.xml:2:1-19:12
+MERGED from [:fileexport] D:\project\osmdroid\fileexport\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-25:12
+MERGED from [:videoplayer] D:\project\osmdroid\videoplayer\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-20:12
+MERGED from [:litpal] D:\project\osmdroid\litpal\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\cd0aef5ec42e8f0f05f34ecfcd085825\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\bc8baece6be69f315eab513cafa0560d\AndroidManifest.xml:2:1-11:12
+MERGED from [:map] D:\project\osmdroid\map\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [com.blankj:utilcode:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\e3648b7a361216842532205471d95fa0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:2:1-46:12
+MERGED from [com.tencent.tinker:tinker-android-lib:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1504ed68eef5acba370c65ef26560577\AndroidManifest.xml:2:1-39:12
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a502d9fc3d257dd8d5abe07fd099d92b\AndroidManifest.xml:2:1-36:12
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\70a29baddfc2cf8cdcf32c684e2960e3\AndroidManifest.xml:2:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\f369955cd2373b8af4dcb07ad671c5db\AndroidManifest.xml:17:1-22:12
+MERGED from [com.gyf.immersionbar:immersionbar:2.3.3] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\de9ecc1804dbbed9428a61b892dc1b1b\AndroidManifest.xml:2:1-10:12
+MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\5e9455f212815b45cbe0637130b34a99\AndroidManifest.xml:2:1-7:12
+MERGED from [com.bm.photoview:library:1.4.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\8923f771f4580967214e2c6883203855\AndroidManifest.xml:2:1-14:12
+MERGED from [com.zhy:okhttputils:2.6.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\0ad86131606c951147d549524185fff0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.lzy.net:okhttpserver:1.0.3] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\2280ca5315b78079f6a24835183f3f2c\AndroidManifest.xml:2:1-15:12
+MERGED from [com.github.gzu-liyujiang.AndroidPicker:ColorPicker:1.5.6.20181018] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\b002048c071855edc80dfe6d00e0053c\AndroidManifest.xml:2:1-12:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\c7d5126e0b6f86f60e25524738388511\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\67ff3a452cdb05461220cc4fd89a48eb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\f2e6620c9bc14b582e3ee8a7877d3c45\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1113791d56c3fbf104bc28157439f6e5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\364280b9f655462784135d655127a024\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\9a7752ba17debfa40560680c27ac02c9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\856a5f08f812bb1156c73c194d8f8946\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\bc9d54246b85c7c08f322af37e49e0cb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\4f105e38bb28359d6cc5a10eb3c93e7b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\364910f6e43c4ed83e31e6154805de28\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\037e666b42e13253651b5b4193a61121\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\f1f156b54d4293f307438ce89c53035e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3ba422eff75bc78e29827ff2f737fff1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\7cb85c2051ea3e13e620961b78b2fa78\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\97f180af9ae55d9c3f12d52f6c8c793d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\de7665b87ea1f4f24d73d8a728cc777d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\2e15111eab4c2a89efbbb444631f08e7\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\7ead7b31947b97985c18feba3e462cf5\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\0d3f8a00502c9667ca457f9e68b3f4cc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\0f92968a29f76fabfcf3e7e6f2416e9b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:2:1-161:12
+MERGED from [com.lzy.net:okhttputils:1.8.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\689d409142d159bb572199fa0dba8148\AndroidManifest.xml:2:1-16:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\37c8eeb7c1df4f316e6c89d937e40251\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\00b846cf08b624e0517108dd91c651d9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\349482ffac591c6e538d74254e461797\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\97fb3238c03c42790f5a4f6c91515267\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\25eadbd5e2193194c86726ae653b376d\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d509c399c43ecb1289f0b86de9ad88b2\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\dfe3fff442597535c49965b93e4f9809\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\b625c3845363910c785779b1c1147f87\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\c451133a524c8f7c4008f66b700b2801\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.gzu-liyujiang.AndroidPicker:Common:1.5.6.20181018] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\c60ad1568a0f346f37668e5b0c084c43\AndroidManifest.xml:2:1-12:12
+MERGED from [net.zetetic:android-database-sqlcipher:3.5.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\25b2795bb0ccaba490f82731f5c572a4\AndroidManifest.xml:2:1-4:12
+INJECTED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:2:1-208:12
+INJECTED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:2:1-208:12
+INJECTED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:2:1-208:12
+	package
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:4:5-34
+		INJECTED from D:\project\osmdroid\app\src\main\AndroidManifest.xml
+		INJECTED from D:\project\osmdroid\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\project\osmdroid\app\src\main\AndroidManifest.xml
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:2:1-208:12
+		INJECTED from D:\project\osmdroid\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\project\osmdroid\app\src\main\AndroidManifest.xml
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:2:1-208:12
+		INJECTED from D:\project\osmdroid\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:6:5-84
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:6:22-81
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.INTERNET
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:8:5-67
+MERGED from [:videoplayer] D:\project\osmdroid\videoplayer\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+MERGED from [:videoplayer] D:\project\osmdroid\videoplayer\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:12:5-67
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:12:5-67
+MERGED from [com.lzy.net:okhttputils:1.8.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\689d409142d159bb572199fa0dba8148\AndroidManifest.xml:11:5-67
+MERGED from [com.lzy.net:okhttputils:1.8.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\689d409142d159bb572199fa0dba8148\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:9:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:10:5-75
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:11:5-75
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:11:5-75
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\70a29baddfc2cf8cdcf32c684e2960e3\AndroidManifest.xml:18:5-75
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\70a29baddfc2cf8cdcf32c684e2960e3\AndroidManifest.xml:18:5-75
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:10:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:11:5-81
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:16:5-81
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:16:5-81
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a502d9fc3d257dd8d5abe07fd099d92b\AndroidManifest.xml:14:5-81
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a502d9fc3d257dd8d5abe07fd099d92b\AndroidManifest.xml:14:5-81
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\70a29baddfc2cf8cdcf32c684e2960e3\AndroidManifest.xml:14:5-81
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\70a29baddfc2cf8cdcf32c684e2960e3\AndroidManifest.xml:14:5-81
+MERGED from [com.lzy.net:okhttputils:1.8.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\689d409142d159bb572199fa0dba8148\AndroidManifest.xml:13:5-81
+MERGED from [com.lzy.net:okhttputils:1.8.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\689d409142d159bb572199fa0dba8148\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:11:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:12:5-80
+MERGED from [:videoplayer] D:\project\osmdroid\videoplayer\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-80
+MERGED from [:videoplayer] D:\project\osmdroid\videoplayer\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-80
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a502d9fc3d257dd8d5abe07fd099d92b\AndroidManifest.xml:16:5-80
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a502d9fc3d257dd8d5abe07fd099d92b\AndroidManifest.xml:16:5-80
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\70a29baddfc2cf8cdcf32c684e2960e3\AndroidManifest.xml:16:5-80
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\70a29baddfc2cf8cdcf32c684e2960e3\AndroidManifest.xml:16:5-80
+MERGED from [com.lzy.net:okhttputils:1.8.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\689d409142d159bb572199fa0dba8148\AndroidManifest.xml:12:5-80
+MERGED from [com.lzy.net:okhttputils:1.8.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\689d409142d159bb572199fa0dba8148\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:13:5-66
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:13:22-63
+uses-permission#android.permission.CAMERA
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:14:5-65
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:14:22-62
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:15:5-79
+MERGED from [:videoplayer] D:\project\osmdroid\videoplayer\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+MERGED from [:videoplayer] D:\project\osmdroid\videoplayer\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:13:5-79
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:13:5-79
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\70a29baddfc2cf8cdcf32c684e2960e3\AndroidManifest.xml:24:5-79
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\70a29baddfc2cf8cdcf32c684e2960e3\AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:16:5-76
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:14:5-76
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:14:5-76
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\70a29baddfc2cf8cdcf32c684e2960e3\AndroidManifest.xml:20:5-76
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\70a29baddfc2cf8cdcf32c684e2960e3\AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:16:22-73
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:17:5-83
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:17:5-83
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:17:5-83
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:17:22-80
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:18:5-78
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:18:22-75
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:19:22-78
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:20:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:21:5-79
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:21:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:22:5-89
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:22:22-86
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:24:5-68
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\70a29baddfc2cf8cdcf32c684e2960e3\AndroidManifest.xml:22:5-68
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\70a29baddfc2cf8cdcf32c684e2960e3\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:24:22-65
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:25:5-69
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\70a29baddfc2cf8cdcf32c684e2960e3\AndroidManifest.xml:26:5-69
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\70a29baddfc2cf8cdcf32c684e2960e3\AndroidManifest.xml:26:5-69
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:25:22-66
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:26:5-71
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:26:22-68
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:27:5-68
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:27:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:28:5-74
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:28:22-71
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:29:5-81
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:29:22-78
+uses-permission#android.permission.ACCESS_DOWNLOAD_MANAGER
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:30:5-82
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:30:22-79
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:31:5-88
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:31:22-85
+uses-permission#android.permission.DISABLE_KEYGUARD
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:32:5-75
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:32:22-72
+application
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:34:5-206:19
+MERGED from [com.github.jdsjlzx:LRecyclerView:1.5.4.3] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\9f842f6729f162c75e51e145e2d76ea9\AndroidManifest.xml:11:5-20
+MERGED from [com.github.jdsjlzx:LRecyclerView:1.5.4.3] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\9f842f6729f162c75e51e145e2d76ea9\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\cdda1869d5104d69b1e3848526fd440f\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\cdda1869d5104d69b1e3848526fd440f\AndroidManifest.xml:22:5-20
+MERGED from [pub.devrel:easypermissions:2.0.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\5a878b2137b23226fd76da3f36b08aa5\AndroidManifest.xml:11:5-17:19
+MERGED from [pub.devrel:easypermissions:2.0.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\5a878b2137b23226fd76da3f36b08aa5\AndroidManifest.xml:11:5-17:19
+MERGED from [:fileexport] D:\project\osmdroid\fileexport\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-23:19
+MERGED from [:fileexport] D:\project\osmdroid\fileexport\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-23:19
+MERGED from [:videoplayer] D:\project\osmdroid\videoplayer\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-18:19
+MERGED from [:videoplayer] D:\project\osmdroid\videoplayer\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-18:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\bc8baece6be69f315eab513cafa0560d\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\bc8baece6be69f315eab513cafa0560d\AndroidManifest.xml:9:5-20
+MERGED from [:map] D:\project\osmdroid\map\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-45
+MERGED from [:map] D:\project\osmdroid\map\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-45
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:20:5-44:19
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:20:5-44:19
+MERGED from [com.tencent.tinker:tinker-android-lib:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1504ed68eef5acba370c65ef26560577\AndroidManifest.xml:9:5-37:19
+MERGED from [com.tencent.tinker:tinker-android-lib:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1504ed68eef5acba370c65ef26560577\AndroidManifest.xml:9:5-37:19
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a502d9fc3d257dd8d5abe07fd099d92b\AndroidManifest.xml:18:5-34:19
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a502d9fc3d257dd8d5abe07fd099d92b\AndroidManifest.xml:18:5-34:19
+MERGED from [com.bm.photoview:library:1.4.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\8923f771f4580967214e2c6883203855\AndroidManifest.xml:11:5-12:19
+MERGED from [com.bm.photoview:library:1.4.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\8923f771f4580967214e2c6883203855\AndroidManifest.xml:11:5-12:19
+MERGED from [com.lzy.net:okhttpserver:1.0.3] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\2280ca5315b78079f6a24835183f3f2c\AndroidManifest.xml:11:5-13:19
+MERGED from [com.lzy.net:okhttpserver:1.0.3] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\2280ca5315b78079f6a24835183f3f2c\AndroidManifest.xml:11:5-13:19
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\2e15111eab4c2a89efbbb444631f08e7\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\2e15111eab4c2a89efbbb444631f08e7\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\7ead7b31947b97985c18feba3e462cf5\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\7ead7b31947b97985c18feba3e462cf5\AndroidManifest.xml:22:5-23:19
+MERGED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:9:5-159:19
+MERGED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:9:5-159:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\2e15111eab4c2a89efbbb444631f08e7\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:42:9-35
+	android:label
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:39:9-41
+	android:hardwareAccelerated
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:37:9-44
+	android:roundIcon
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:41:9-54
+	android:largeHeap
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:40:9-33
+	android:icon
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:38:9-43
+	android:allowBackup
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:36:9-35
+	android:theme
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:43:9-40
+	android:usesCleartextTraffic
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:44:9-44
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:35:9-39
+activity#com.huejie.osmdroid.project.recordbook.activity.ExistingRiverProjectActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:45:9-48:61
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:48:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:47:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:46:13-85
+activity#com.huejie.osmdroid.project.recordbook.activity.FloodLevelSurveyRecordsActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:49:9-52:61
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:52:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:51:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:50:13-88
+activity#com.huejie.osmdroid.activity.AnnexLibraryActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:53:9-56:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:56:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:55:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:54:13-58
+activity#com.huejie.osmdroid.more.activity.ChooseFavoritesAreaActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:57:9-60:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:60:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:59:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:58:13-70
+activity#com.huejie.osmdroid.activity.AssociationWorkpointActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:61:9-64:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:64:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:63:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:62:13-66
+activity#com.huejie.osmdroid.project.recordbook.activity.LocalProjectActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:65:9-68:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:68:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:67:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:66:13-77
+activity#com.huejie.osmdroid.project.recordbook.activity.ChooseWorkPointActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:69:9-72:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:72:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:71:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:70:13-80
+activity#com.huejie.osmdroid.more.activity.IconChooseActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:73:9-76:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:76:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:75:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:74:13-61
+activity#com.huejie.osmdroid.project.recordbook.activity.MediaPlayerActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:77:9-80:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:80:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:79:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:78:13-76
+activity#com.huejie.osmdroid.more.activity.ChooseMapActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:81:9-84:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:84:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:83:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:82:13-60
+activity#com.huejie.osmdroid.project.recordbook.activity.OverlayControlActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:85:9-88:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:88:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:87:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:86:13-79
+activity#com.huejie.osmdroid.project.recordbook.activity.ChoosePositionByPictureActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:89:9-92:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:92:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:91:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:90:13-88
+activity#com.huejie.osmdroid.more.activity.ChooseFolderActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:93:9-96:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:96:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:95:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:94:13-63
+activity#com.huejie.osmdroid.activity.ModelActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:97:9-100:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:100:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:99:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:98:13-51
+activity#com.huejie.osmdroid.more.activity.MarkSettingActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:101:9-104:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:104:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:103:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:102:13-62
+activity#com.huejie.osmdroid.more.activity.MapFavotiresActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:105:9-108:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:108:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:107:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:106:13-63
+activity#com.huejie.osmdroid.more.activity.FavoritesActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:109:9-112:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:112:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:111:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:110:13-60
+activity#com.huejie.osmdroid.project.recordbook.activity.AreaChooseActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:113:9-116:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:116:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:115:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:114:13-75
+activity#com.huejie.osmdroid.more.mapdownload.ChooseDownloadTypeActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:117:9-120:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:120:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:119:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:118:13-72
+activity#com.huejie.osmdroid.project.recordbook.activity.RectMapDownloadActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:121:9-123:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:123:13-49
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:122:13-80
+activity#com.huejie.osmdroid.project.recordbook.activity.BookDetailActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:124:9-127:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:127:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:126:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:125:13-75
+activity#com.huejie.osmdroid.project.recordbook.activity.PaintActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:128:9-131:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:131:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:130:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:129:13-70
+activity#com.huejie.osmdroid.project.recordbook.activity.AudioSelectActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:132:9-135:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:135:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:134:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:133:13-76
+activity#com.huejie.osmdroid.project.recordbook.activity.VideoSelectActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:136:9-139:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:139:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:138:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:137:13-76
+activity#com.huejie.osmdroid.project.recordbook.activity.RecordBookActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:140:9-143:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:143:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:142:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:141:13-75
+activity#com.huejie.osmdroid.project.recordbook.activity.PhotoViewActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:144:9-147:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:147:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:146:13-43
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:145:13-74
+activity#com.huejie.osmdroid.activity.LoginActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:148:9-151:52
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:151:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:150:13-44
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:149:13-51
+activity#com.huejie.osmdroid.more.activity.MapSettingActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:152:9-156:59
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:155:13-49
+	android:launchMode
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:154:13-43
+	android:theme
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:156:13-56
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:153:13-61
+activity#com.huejie.osmdroid.activity.BaseActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:157:9-160:59
+	android:label
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:159:13-56
+	android:theme
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:160:13-56
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:158:13-50
+activity#com.huejie.osmdroid.activity.MainActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:161:9-164:59
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:163:13-49
+	android:theme
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:164:13-56
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:162:13-50
+service#com.huejie.osmdroid.trajectory.TrajectoryService
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:166:9-169:39
+	android:enabled
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:168:13-35
+	android:exported
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:169:13-36
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:167:13-57
+service#com.huejie.osmdroid.more.mapdownload.MapDownloadService
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:170:9-173:39
+	android:enabled
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:172:13-35
+	android:exported
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:173:13-36
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:171:13-64
+activity#com.huejie.osmdroid.activity.LaunchActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:175:9-184:20
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:177:13-49
+	android:theme
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:178:13-56
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:176:13-52
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:179:13-183:29
+action#android.intent.action.MAIN
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:180:17-69
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:180:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:182:17-77
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:182:27-74
+activity#com.tencent.bugly.beta.ui.BetaActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:185:9-188:64
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:23:9-27:56
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:23:9-27:56
+	android:configChanges
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:187:13-81
+	android:theme
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:188:13-61
+	tools:replace
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:27:13-53
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:186:13-66
+activity#com.huejie.osmdroid.project.recordbook.activity.SmallBridgeCulvertInitialActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:200:9-202:58
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:201:13-49
+	android:theme
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:202:13-56
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:200:19-96
+activity#com.huejie.osmdroid.project.recordbook.activity.SmallBridgeCulvertFloodSurveyActivity
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:203:9-205:58
+	android:screenOrientation
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:204:13-49
+	android:theme
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:205:13-56
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:203:19-100
+uses-sdk
+INJECTED from D:\project\osmdroid\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\project\osmdroid\app\src\main\AndroidManifest.xml
+INJECTED from D:\project\osmdroid\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\4d496fea07dfd9cb4502b7ad01c96c8a\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\4d496fea07dfd9cb4502b7ad01c96c8a\AndroidManifest.xml:20:5-43
+MERGED from [com.github.jdsjlzx:LRecyclerView:1.5.4.3] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\9f842f6729f162c75e51e145e2d76ea9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.jdsjlzx:LRecyclerView:1.5.4.3] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\9f842f6729f162c75e51e145e2d76ea9\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\cdda1869d5104d69b1e3848526fd440f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\cdda1869d5104d69b1e3848526fd440f\AndroidManifest.xml:20:5-44
+MERGED from [pub.devrel:easypermissions:2.0.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\5a878b2137b23226fd76da3f36b08aa5\AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:2.0.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\5a878b2137b23226fd76da3f36b08aa5\AndroidManifest.xml:7:5-9:41
+MERGED from [:fileexport] D:\project\osmdroid\fileexport\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:fileexport] D:\project\osmdroid\fileexport\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:videoplayer] D:\project\osmdroid\videoplayer\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:videoplayer] D:\project\osmdroid\videoplayer\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:litpal] D:\project\osmdroid\litpal\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:litpal] D:\project\osmdroid\litpal\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\cd0aef5ec42e8f0f05f34ecfcd085825\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\cd0aef5ec42e8f0f05f34ecfcd085825\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\bc8baece6be69f315eab513cafa0560d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\bc8baece6be69f315eab513cafa0560d\AndroidManifest.xml:5:5-7:41
+MERGED from [:map] D:\project\osmdroid\map\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:map] D:\project\osmdroid\map\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.blankj:utilcode:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\e3648b7a361216842532205471d95fa0\AndroidManifest.xml:8:5-44
+MERGED from [com.blankj:utilcode:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\e3648b7a361216842532205471d95fa0\AndroidManifest.xml:8:5-44
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:6:5-8:41
+MERGED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:6:5-8:41
+MERGED from [com.tencent.tinker:tinker-android-lib:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1504ed68eef5acba370c65ef26560577\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.tinker:tinker-android-lib:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1504ed68eef5acba370c65ef26560577\AndroidManifest.xml:5:5-7:41
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a502d9fc3d257dd8d5abe07fd099d92b\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a502d9fc3d257dd8d5abe07fd099d92b\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\70a29baddfc2cf8cdcf32c684e2960e3\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\70a29baddfc2cf8cdcf32c684e2960e3\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\f369955cd2373b8af4dcb07ad671c5db\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\f369955cd2373b8af4dcb07ad671c5db\AndroidManifest.xml:20:5-44
+MERGED from [com.gyf.immersionbar:immersionbar:2.3.3] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\de9ecc1804dbbed9428a61b892dc1b1b\AndroidManifest.xml:6:5-8:41
+MERGED from [com.gyf.immersionbar:immersionbar:2.3.3] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\de9ecc1804dbbed9428a61b892dc1b1b\AndroidManifest.xml:6:5-8:41
+MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\5e9455f212815b45cbe0637130b34a99\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\5e9455f212815b45cbe0637130b34a99\AndroidManifest.xml:5:5-43
+MERGED from [com.bm.photoview:library:1.4.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\8923f771f4580967214e2c6883203855\AndroidManifest.xml:7:5-9:41
+MERGED from [com.bm.photoview:library:1.4.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\8923f771f4580967214e2c6883203855\AndroidManifest.xml:7:5-9:41
+MERGED from [com.zhy:okhttputils:2.6.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\0ad86131606c951147d549524185fff0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.zhy:okhttputils:2.6.2] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\0ad86131606c951147d549524185fff0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.lzy.net:okhttpserver:1.0.3] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\2280ca5315b78079f6a24835183f3f2c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.lzy.net:okhttpserver:1.0.3] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\2280ca5315b78079f6a24835183f3f2c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.gzu-liyujiang.AndroidPicker:ColorPicker:1.5.6.20181018] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\b002048c071855edc80dfe6d00e0053c\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.gzu-liyujiang.AndroidPicker:ColorPicker:1.5.6.20181018] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\b002048c071855edc80dfe6d00e0053c\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\c7d5126e0b6f86f60e25524738388511\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\c7d5126e0b6f86f60e25524738388511\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\67ff3a452cdb05461220cc4fd89a48eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\67ff3a452cdb05461220cc4fd89a48eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\f2e6620c9bc14b582e3ee8a7877d3c45\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\f2e6620c9bc14b582e3ee8a7877d3c45\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1113791d56c3fbf104bc28157439f6e5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1113791d56c3fbf104bc28157439f6e5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\364280b9f655462784135d655127a024\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\364280b9f655462784135d655127a024\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\9a7752ba17debfa40560680c27ac02c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\9a7752ba17debfa40560680c27ac02c9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\856a5f08f812bb1156c73c194d8f8946\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\856a5f08f812bb1156c73c194d8f8946\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\bc9d54246b85c7c08f322af37e49e0cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\bc9d54246b85c7c08f322af37e49e0cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\4f105e38bb28359d6cc5a10eb3c93e7b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\4f105e38bb28359d6cc5a10eb3c93e7b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\364910f6e43c4ed83e31e6154805de28\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\364910f6e43c4ed83e31e6154805de28\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\037e666b42e13253651b5b4193a61121\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\037e666b42e13253651b5b4193a61121\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\f1f156b54d4293f307438ce89c53035e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\f1f156b54d4293f307438ce89c53035e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3ba422eff75bc78e29827ff2f737fff1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3ba422eff75bc78e29827ff2f737fff1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\7cb85c2051ea3e13e620961b78b2fa78\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\7cb85c2051ea3e13e620961b78b2fa78\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\97f180af9ae55d9c3f12d52f6c8c793d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\97f180af9ae55d9c3f12d52f6c8c793d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\de7665b87ea1f4f24d73d8a728cc777d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\de7665b87ea1f4f24d73d8a728cc777d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\2e15111eab4c2a89efbbb444631f08e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\2e15111eab4c2a89efbbb444631f08e7\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\7ead7b31947b97985c18feba3e462cf5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\7ead7b31947b97985c18feba3e462cf5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\0d3f8a00502c9667ca457f9e68b3f4cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\0d3f8a00502c9667ca457f9e68b3f4cc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\0f92968a29f76fabfcf3e7e6f2416e9b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\0f92968a29f76fabfcf3e7e6f2416e9b\AndroidManifest.xml:20:5-44
+MERGED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:5:5-7:41
+MERGED from [com.lzy.net:okhttputils:1.8.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\689d409142d159bb572199fa0dba8148\AndroidManifest.xml:7:5-9:41
+MERGED from [com.lzy.net:okhttputils:1.8.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\689d409142d159bb572199fa0dba8148\AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\37c8eeb7c1df4f316e6c89d937e40251\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\37c8eeb7c1df4f316e6c89d937e40251\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\00b846cf08b624e0517108dd91c651d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\00b846cf08b624e0517108dd91c651d9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\349482ffac591c6e538d74254e461797\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\349482ffac591c6e538d74254e461797\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\97fb3238c03c42790f5a4f6c91515267\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\97fb3238c03c42790f5a4f6c91515267\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\25eadbd5e2193194c86726ae653b376d\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\25eadbd5e2193194c86726ae653b376d\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d509c399c43ecb1289f0b86de9ad88b2\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\d509c399c43ecb1289f0b86de9ad88b2\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\dfe3fff442597535c49965b93e4f9809\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\dfe3fff442597535c49965b93e4f9809\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\b625c3845363910c785779b1c1147f87\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\b625c3845363910c785779b1c1147f87\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\c451133a524c8f7c4008f66b700b2801\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\c451133a524c8f7c4008f66b700b2801\AndroidManifest.xml:20:5-44
+MERGED from [com.github.gzu-liyujiang.AndroidPicker:Common:1.5.6.20181018] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\c60ad1568a0f346f37668e5b0c084c43\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.gzu-liyujiang.AndroidPicker:Common:1.5.6.20181018] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\c60ad1568a0f346f37668e5b0c084c43\AndroidManifest.xml:8:5-10:41
+MERGED from [net.zetetic:android-database-sqlcipher:3.5.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\25b2795bb0ccaba490f82731f5c572a4\AndroidManifest.xml:3:3-40
+MERGED from [net.zetetic:android-database-sqlcipher:3.5.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\25b2795bb0ccaba490f82731f5c572a4\AndroidManifest.xml:3:3-40
+INJECTED from D:\project\osmdroid\app\src\main\AndroidManifest.xml
+INJECTED from D:\project\osmdroid\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\project\osmdroid\app\src\main\AndroidManifest.xml
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml
+		INJECTED from D:\project\osmdroid\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\project\osmdroid\app\src\main\AndroidManifest.xml
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml
+		INJECTED from D:\project\osmdroid\app\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:195:13-197:54
+	android:resource
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:197:17-51
+	android:name
+		ADDED from D:\project\osmdroid\app\src\main\AndroidManifest.xml:196:17-67
+activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
+ADDED from [pub.devrel:easypermissions:2.0.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\5a878b2137b23226fd76da3f36b08aa5\AndroidManifest.xml:12:9-16:66
+	android:label
+		ADDED from [pub.devrel:easypermissions:2.0.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\5a878b2137b23226fd76da3f36b08aa5\AndroidManifest.xml:15:13-29
+	android:exported
+		ADDED from [pub.devrel:easypermissions:2.0.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\5a878b2137b23226fd76da3f36b08aa5\AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [pub.devrel:easypermissions:2.0.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\5a878b2137b23226fd76da3f36b08aa5\AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [pub.devrel:easypermissions:2.0.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\5a878b2137b23226fd76da3f36b08aa5\AndroidManifest.xml:13:13-86
+activity#com.huajie.fileexport.activity.FilesActivity
+ADDED from [:fileexport] D:\project\osmdroid\fileexport\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:9-18:20
+	android:screenOrientation
+		ADDED from [:fileexport] D:\project\osmdroid\fileexport\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-49
+	android:name
+		ADDED from [:fileexport] D:\project\osmdroid\fileexport\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-72
+activity#com.huajie.fileexport.activity.FileSortActivity
+ADDED from [:fileexport] D:\project\osmdroid\fileexport\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-22:20
+	android:screenOrientation
+		ADDED from [:fileexport] D:\project\osmdroid\fileexport\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-49
+	android:name
+		ADDED from [:fileexport] D:\project\osmdroid\fileexport\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-75
+uses-permission#android.permission.READ_LOGS
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:15:5-68
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:15:22-65
+provider#com.tencent.bugly.beta.utils.BuglyFileProvider
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:29:9-39:20
+	android:grantUriPermissions
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:33:13-47
+	android:authorities
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:31:13-64
+	android:exported
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:32:13-37
+	tools:replace
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:34:13-74
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:30:13-74
+service#com.tencent.bugly.beta.tinker.TinkerResultService
+ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:41:9-43:40
+	android:exported
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from [com.tencent.bugly:crashreport_upgrade:1.3.6] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\33a4f82e366c109cd586e5057f2e6993\AndroidManifest.xml:42:13-77
+service#com.tencent.tinker.lib.service.TinkerPatchService$IntentServiceRunner
+ADDED from [com.tencent.tinker:tinker-android-lib:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1504ed68eef5acba370c65ef26560577\AndroidManifest.xml:19:9-22:40
+	android:process
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1504ed68eef5acba370c65ef26560577\AndroidManifest.xml:22:13-37
+	android:exported
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1504ed68eef5acba370c65ef26560577\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1504ed68eef5acba370c65ef26560577\AndroidManifest.xml:20:13-97
+service#com.tencent.tinker.lib.service.TinkerPatchService$IntentServiceRunner$InnerService
+ADDED from [com.tencent.tinker:tinker-android-lib:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1504ed68eef5acba370c65ef26560577\AndroidManifest.xml:23:9-26:40
+	android:process
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1504ed68eef5acba370c65ef26560577\AndroidManifest.xml:26:13-37
+	android:exported
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1504ed68eef5acba370c65ef26560577\AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1504ed68eef5acba370c65ef26560577\AndroidManifest.xml:24:13-110
+service#com.tencent.tinker.lib.service.TinkerPatchService$JobServiceRunner
+ADDED from [com.tencent.tinker:tinker-android-lib:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1504ed68eef5acba370c65ef26560577\AndroidManifest.xml:27:9-31:40
+	android:process
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1504ed68eef5acba370c65ef26560577\AndroidManifest.xml:31:13-37
+	android:exported
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1504ed68eef5acba370c65ef26560577\AndroidManifest.xml:29:13-37
+	android:permission
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1504ed68eef5acba370c65ef26560577\AndroidManifest.xml:30:13-69
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1504ed68eef5acba370c65ef26560577\AndroidManifest.xml:28:13-94
+service#com.tencent.tinker.lib.service.DefaultTinkerResultService
+ADDED from [com.tencent.tinker:tinker-android-lib:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1504ed68eef5acba370c65ef26560577\AndroidManifest.xml:34:9-36:40
+	android:exported
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1504ed68eef5acba370c65ef26560577\AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\1504ed68eef5acba370c65ef26560577\AndroidManifest.xml:35:13-85
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a502d9fc3d257dd8d5abe07fd099d92b\AndroidManifest.xml:12:5-84
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\70a29baddfc2cf8cdcf32c684e2960e3\AndroidManifest.xml:12:5-84
+MERGED from [cn.finalteam:toolsfinal:1.1.5] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\70a29baddfc2cf8cdcf32c684e2960e3\AndroidManifest.xml:12:5-84
+MERGED from [com.lzy.net:okhttputils:1.8.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\689d409142d159bb572199fa0dba8148\AndroidManifest.xml:14:5-84
+MERGED from [com.lzy.net:okhttputils:1.8.1] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\689d409142d159bb572199fa0dba8148\AndroidManifest.xml:14:5-84
+	android:name
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a502d9fc3d257dd8d5abe07fd099d92b\AndroidManifest.xml:12:22-81
+activity#cn.finalteam.galleryfinal.PhotoSelectActivity
+ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a502d9fc3d257dd8d5abe07fd099d92b\AndroidManifest.xml:22:9-25:52
+	android:screenOrientation
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a502d9fc3d257dd8d5abe07fd099d92b\AndroidManifest.xml:25:13-49
+	android:configChanges
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a502d9fc3d257dd8d5abe07fd099d92b\AndroidManifest.xml:24:13-83
+	android:name
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a502d9fc3d257dd8d5abe07fd099d92b\AndroidManifest.xml:23:13-73
+activity#cn.finalteam.galleryfinal.PhotoEditActivity
+ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a502d9fc3d257dd8d5abe07fd099d92b\AndroidManifest.xml:26:9-29:52
+	android:screenOrientation
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a502d9fc3d257dd8d5abe07fd099d92b\AndroidManifest.xml:29:13-49
+	android:configChanges
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a502d9fc3d257dd8d5abe07fd099d92b\AndroidManifest.xml:28:13-83
+	android:name
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a502d9fc3d257dd8d5abe07fd099d92b\AndroidManifest.xml:27:13-71
+activity#cn.finalteam.galleryfinal.PhotoPreviewActivity
+ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a502d9fc3d257dd8d5abe07fd099d92b\AndroidManifest.xml:30:9-33:52
+	android:screenOrientation
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a502d9fc3d257dd8d5abe07fd099d92b\AndroidManifest.xml:33:13-49
+	android:configChanges
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a502d9fc3d257dd8d5abe07fd099d92b\AndroidManifest.xml:32:13-83
+	android:name
+		ADDED from [cn.finalteam:galleryfinal:1.4.8.7] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\a502d9fc3d257dd8d5abe07fd099d92b\AndroidManifest.xml:31:13-74
+service#com.lzy.okhttpserver.download.DownloadService
+ADDED from [com.lzy.net:okhttpserver:1.0.3] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\2280ca5315b78079f6a24835183f3f2c\AndroidManifest.xml:12:9-81
+	android:name
+		ADDED from [com.lzy.net:okhttpserver:1.0.3] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\2280ca5315b78079f6a24835183f3f2c\AndroidManifest.xml:12:18-78
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:10:9-95
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:10:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:11:9-95
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:11:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:12:9-95
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:12:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_03
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:13:9-95
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:13:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_04
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:14:9-95
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:14:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_05
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:15:9-95
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:15:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_06
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:16:9-95
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:16:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_07
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:17:9-95
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:17:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_08
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:18:9-95
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:18:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_09
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:19:9-95
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:19:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:20:9-22:64
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:22:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:21:13-88
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:23:9-25:64
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:25:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:24:13-88
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:26:9-28:64
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:28:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:27:13-88
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:29:9-31:46
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:31:13-43
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:30:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:32:9-34:46
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:33:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:35:9-37:46
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:37:13-43
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:36:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_03
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:38:9-40:46
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:40:13-43
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:39:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_04
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:41:9-43:46
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:43:13-43
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:42:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_05
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:44:9-46:46
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:46:13-43
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:45:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_06
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:47:9-49:46
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:49:13-43
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:48:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_07
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:50:9-52:46
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:52:13-43
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:51:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_08
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:53:9-55:46
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:55:13-43
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:54:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_09
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:56:9-58:46
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:58:13-43
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:57:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:59:9-62:64
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:61:13-43
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:62:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:60:13-88
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:63:9-66:64
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:65:13-43
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:66:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:64:13-88
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:67:9-70:64
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:69:13-43
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:70:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:68:13-88
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:71:9-73:47
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:73:13-44
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:72:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:74:9-76:47
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:76:13-44
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:75:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:77:9-79:47
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:79:13-44
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:78:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_03
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:80:9-82:47
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:82:13-44
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:81:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_04
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:83:9-85:47
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:85:13-44
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:84:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_05
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:86:9-88:47
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:88:13-44
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:87:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_06
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:89:9-91:47
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:90:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_07
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:92:9-94:47
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:94:13-44
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:93:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_08
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:95:9-97:47
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:97:13-44
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:96:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_09
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:98:9-100:47
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:100:13-44
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:99:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:101:9-104:64
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:103:13-44
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:104:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:102:13-89
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:105:9-108:64
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:107:13-44
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:108:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:106:13-89
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:109:9-112:64
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:111:13-44
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:112:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:110:13-89
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:113:9-115:51
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:115:13-48
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:114:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:116:9-118:51
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:118:13-48
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:117:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:119:9-121:51
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:121:13-48
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:120:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_03
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:122:9-124:51
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:124:13-48
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:123:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_04
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:125:9-127:51
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:127:13-48
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:126:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_05
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:128:9-130:51
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:130:13-48
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:129:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_06
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:131:9-133:51
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:133:13-48
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:132:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_07
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:134:9-136:51
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:136:13-48
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:135:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_08
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:137:9-139:51
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:139:13-48
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:138:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_09
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:140:9-142:51
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:142:13-48
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:141:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:143:9-146:64
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:145:13-48
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:146:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:144:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:147:9-150:64
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:149:13-48
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:150:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:148:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:151:9-154:64
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:153:13-48
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:154:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:152:13-87
+meta-data#tinker_version
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:156:9-158:37
+	android:value
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:158:13-34
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.9] C:\Users\kevin\.gradle\caches\transforms-2\files-2.1\3efaabe34580446329c49ecf267a8e8f\AndroidManifest.xml:157:13-42

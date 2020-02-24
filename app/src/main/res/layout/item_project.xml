@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@drawable/shape_btn"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name"
+            style="@style/TextNornal"
+
+            android:text="项目名称：" />
+
+        <TextView
+            android:id="@+id/tv_number"
+            style="@style/TextNornal"
+            android:layout_marginTop="5dp"
+            android:text="项目编号" />
+
+        <TextView
+            android:id="@+id/tv_xmfzr"
+            style="@style/TextNornal"
+            android:layout_marginTop="5dp"
+            android:text="项目负责人：" />
+
+        <TextView
+            android:id="@+id/tv_fxfzr"
+            style="@style/TextNornal"
+            android:layout_marginTop="5dp"
+            android:text="分项负责人：" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_xl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查看线路"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_jlb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="查看记录簿" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

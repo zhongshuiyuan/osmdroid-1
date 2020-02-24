@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".more.mapdownload.MapDownloadActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/title_layout"
+            layout="@layout/layout_title" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    style="@style/TextNornal"
+                    android:text="经纬度显示格式" />
+
+                <TextView
+                    android:id="@+id/tv_jwdgs"
+                    style="@style/TextNornal"
+                    android:layout_width="match_parent"
+                    android:drawableRight="@mipmap/arrow_right"
+                    android:gravity="right"
+                    android:text="度" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <TextView
+                    style="@style/TextNornal"
+                    android:text="长度单位格式" />
+
+                <TextView
+                    android:id="@+id/tv_cdgs"
+                    style="@style/TextNornal"
+                    android:layout_width="match_parent"
+                    android:drawableRight="@mipmap/arrow_right"
+                    android:gravity="right"
+                    android:text="公里、米" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextNornal"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:text="地图最大级别" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right|center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_zoom_jian"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:src="@drawable/selector_jia" />
+
+                    <TextView
+                        android:id="@+id/tv_maxZoom"
+                        style="@style/TextNornal"
+                        android:layout_width="wrap_content"
+                        android:text="20" />
+
+                    <ImageView
+                        android:id="@+id/iv_zoom_jia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:src="@drawable/selector_jian" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextNornal"
+                    android:layout_marginLeft="@dimen/dp_10"
+                    android:text="缓存大小设置" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right|center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/iv_cache_jian"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:src="@drawable/selector_jia" />
+
+                    <TextView
+                        android:id="@+id/tv_cache"
+                        style="@style/TextNornal"
+                        android:layout_width="wrap_content"
+                        android:text="1024M" />
+
+                    <ImageView
+                        android:id="@+id/iv_cache_jia"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="10dp"
+                        android:src="@drawable/selector_jian" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/line" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

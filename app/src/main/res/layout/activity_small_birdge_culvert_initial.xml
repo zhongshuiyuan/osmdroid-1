@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/layout_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/dimen_5_dp"
+            android:text="初拟进出口\n型式-涵洞"
+            android:textColor="@color/delect_color"
+            android:textSize="@dimen/text_size_12_sp"
+            android:textStyle="bold" />
+
+        <CheckedTextView
+            android:id="@+id/tv_hd"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5_dp"
+            android:layout_marginRight="@dimen/dimen_5_dp"
+            android:layout_weight="2"
+            android:background="@drawable/shape_input_bg"
+            android:drawableRight="@drawable/btn_arrow_selector"
+            android:gravity="center_vertical"
+            android:padding="@dimen/dimen_5_dp"
+            android:textColor="@color/delect_color"
+            android:textSize="@dimen/text_size_12_sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/dimen_5_dp"
+            android:text="初拟下部结构和\n基础结构型式-小桥"
+            android:textColor="@color/delect_color"
+            android:textSize="@dimen/text_size_12_sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_jgxsxq"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dimen_5_dp"
+            android:layout_marginRight="@dimen/dimen_5_dp"
+            android:layout_weight="2"
+            android:background="@drawable/shape_input_bg"
+            android:ems="5"
+            android:gravity="center_vertical"
+            android:inputType="numberDecimal"
+            android:padding="@dimen/dimen_5_dp"
+            android:singleLine="true"
+            android:textColor="@color/delect_color"
+            android:textSize="@dimen/text_size_12_sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

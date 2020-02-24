@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3989CA</color>
+    <color name="colorPrimaryLight">#608CD3EF</color>
+    <color name="colorPrimaryDark">#3989CA</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="textColor">#000000</color>
+    <color name="textColorCheck">#d81e06</color>
+    <color name="red">#ff0000</color>
+    <color name="line">#E6E6E6</color>
+    <color name="white">#ffffff</color>
+
+    <color name="green">#ff4f8c0b</color>
+    <color name="blue">#ff1869af</color>
+    <color name="transparency">#00000000</color>
+    <color name="shadow">#1e000000</color>
+    <color name="grey">#cac9c9</color>
+    <color name="light_gray">#fbf8f8</color>
+    <color name="deep_gray">#3b3b3b</color>
+    <color name="delect_color">#666666</color>
+
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="background">#e5e5e5</color>
+    <color name="background_color">#2c333c</color>
+    <color name="half_black">#808080</color>
+
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="orange">#bd4524</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+
+    <color name="white_overlay">#ffffffff</color>
+    <color name="black_overlay">#ff000000</color>
+    <color name="red_overlay">#ffff0000</color>
+    <color name="gray_overlay">#ff838b8b</color>
+    <color name="alpha_overlay">#a0000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="common_text">#e2e2e2</color>
+    <color name="tect_color">#333333</color>
+
+    <color name="line_color">#dddddd</color>
+
+    <color name="province_line_border">#D0D0D0</color>
+    <color name="login_button_normal">#169fff</color>
+    <color name="login_button_pressed">#1073b9</color>
+
+    <color name="weahter_text_color">#65ace7</color>
+    <color name="record_text_color">#eeeeee</color>
+
+</resources>

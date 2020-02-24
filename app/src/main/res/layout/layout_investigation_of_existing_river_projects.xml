@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/dimen_8_dp"
+    android:paddingTop="@dimen/dimen_10_dp"
+    android:paddingRight="@dimen/dimen_8_dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_15_dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dimen_10_dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="河名（桥名）"
+                android:textColor="@color/delect_color"
+                android:textSize="@dimen/text_size_12_sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_hm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_5_dp"
+                android:background="@drawable/shape_input_bg"
+                android:gravity="center_vertical"
+                android:maxLength="32"
+                android:padding="@dimen/dimen_5_dp"
+                android:singleLine="true"
+                android:textColor="@color/delect_color"
+                android:textSize="@dimen/text_size_12_sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="跨径×孔径"
+                android:textColor="@color/delect_color"
+                android:textSize="@dimen/text_size_12_sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_5_dp">
+
+                <EditText
+                    android:id="@+id/et_kuaj"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_input_bg"
+                    android:gravity="center"
+                    android:hint="跨径"
+                    android:inputType="number"
+                    android:maxLength="3"
+                    android:padding="@dimen/dimen_5_dp"
+                    android:singleLine="true"
+                    android:textColor="@color/delect_color"
+                    android:textSize="@dimen/text_size_12_sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dimen_10_dp"
+                    android:layout_marginRight="@dimen/dimen_10_dp"
+                    android:text="/"
+                    android:textColor="@color/delect_color"
+                    android:textSize="@dimen/text_size_14_sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/et_kongj"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/shape_input_bg"
+                    android:ems="7"
+                    android:gravity="center"
+                    android:hint="@string/kongjing"
+                    android:inputType="numberDecimal"
+                    android:padding="@dimen/dimen_5_dp"
+                    android:singleLine="true"
+                    android:textColor="@color/delect_color"
+                    android:textSize="@dimen/text_size_12_sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_15_dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dimen_10_dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="建筑年代"
+                android:textColor="@color/delect_color"
+                android:textSize="@dimen/text_size_12_sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_jznd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_5_dp"
+                android:background="@drawable/shape_input_bg"
+                android:ems="5"
+                android:gravity="center_vertical"
+                android:inputType="number"
+                android:padding="@dimen/dimen_5_dp"
+                android:singleLine="true"
+                android:textColor="@color/delect_color"
+                android:textSize="@dimen/text_size_12_sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="与新桥相对位置"
+                android:textColor="@color/delect_color"
+                android:textSize="@dimen/text_size_12_sp"
+                android:textStyle="bold" />
+
+            <CheckedTextView
+                android:id="@+id/tv_xqxdwz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_5_dp"
+                android:background="@drawable/shape_input_bg"
+                android:drawableRight="@drawable/btn_arrow_selector"
+                android:gravity="center_vertical"
+                android:padding="@dimen/dimen_5_dp"
+                android:textColor="@color/delect_color"
+                android:textSize="@dimen/text_size_12_sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_15_dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dimen_10_dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="道路等级及桥宽"
+                android:textColor="@color/delect_color"
+                android:textSize="@dimen/text_size_12_sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_djqk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_5_dp"
+                android:background="@drawable/shape_input_bg"
+                android:ems="5"
+                android:gravity="center_vertical"
+                android:padding="@dimen/dimen_5_dp"
+                android:singleLine="true"
+                android:textColor="@color/delect_color"
+                android:textSize="@dimen/text_size_12_sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="桥梁长度"
+                android:textColor="@color/delect_color"
+                android:textSize="@dimen/text_size_12_sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_qc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_5_dp"
+                android:background="@drawable/shape_input_bg"
+                android:ems="5"
+                android:gravity="center_vertical"
+                android:inputType="numberDecimal"
+                android:padding="@dimen/dimen_5_dp"
+                android:singleLine="true"
+                android:textColor="@color/delect_color"
+                android:textSize="@dimen/text_size_12_sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_15_dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dimen_10_dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上部结构形式"
+                android:textColor="@color/delect_color"
+                android:textSize="@dimen/text_size_12_sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_sbxs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_5_dp"
+                android:background="@drawable/shape_input_bg"
+                android:gravity="center_vertical"
+                android:maxLength="32"
+                android:padding="@dimen/dimen_5_dp"
+                android:singleLine="true"
+                android:textColor="@color/delect_color"
+                android:textSize="@dimen/text_size_12_sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="下部结构型式"
+                android:textColor="@color/delect_color"
+                android:textSize="@dimen/text_size_12_sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_xbxs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_5_dp"
+                android:background="@drawable/shape_input_bg"
+                android:gravity="center_vertical"
+                android:maxLength="32"
+                android:padding="@dimen/dimen_5_dp"
+                android:singleLine="true"
+                android:textColor="@color/delect_color"
+                android:textSize="@dimen/text_size_12_sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_15_dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dimen_10_dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="使用情况"
+                android:textColor="@color/delect_color"
+                android:textSize="@dimen/text_size_12_sp"
+                android:textStyle="bold" />
+
+            <CheckedTextView
+                android:id="@+id/tv_syqk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_5_dp"
+                android:background="@drawable/shape_input_bg"
+                android:drawableRight="@drawable/btn_arrow_selector"
+                android:gravity="center_vertical"
+                android:padding="@dimen/dimen_5_dp"
+                android:textColor="@color/delect_color"
+                android:textSize="@dimen/text_size_12_sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="与水流交角"
+                android:textColor="@color/delect_color"
+                android:textSize="@dimen/text_size_12_sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_ysljj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_5_dp"
+                android:background="@drawable/shape_input_bg"
+                android:gravity="center_vertical"
+                android:inputType="number"
+                android:padding="@dimen/dimen_5_dp"
+                android:singleLine="true"
+                android:textColor="@color/delect_color"
+                android:textSize="@dimen/text_size_12_sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_15_dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/dimen_10_dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="洪水发生年代及高程"
+                android:textColor="@color/delect_color"
+                android:textSize="@dimen/text_size_12_sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/et_fsnd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_5_dp"
+                    android:background="@drawable/shape_input_bg"
+                    android:gravity="center_vertical"
+                    android:hint="洪水发生年代"
+                    android:inputType="number"
+                    android:padding="@dimen/dimen_5_dp"
+                    android:singleLine="true"
+                    android:textColor="@color/delect_color"
+                    android:textSize="@dimen/text_size_12_sp" />
+
+                <EditText
+                    android:id="@+id/et_hsgc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_5_dp"
+                    android:background="@drawable/shape_input_bg"
+                    android:gravity="center_vertical"
+                    android:hint="高程"
+                    android:inputType="numberDecimal"
+                    android:padding="@dimen/dimen_5_dp"
+                    android:singleLine="true"
+                    android:textColor="@color/delect_color"
+                    android:textSize="@dimen/text_size_12_sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="地质及冲淤情况"
+                android:textColor="@color/delect_color"
+                android:textSize="@dimen/text_size_12_sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dimen_5_dp"
+                android:orientation="vertical">
+
+                <CheckedTextView
+                    android:id="@+id/tv_dzqk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_input_bg"
+                    android:drawableRight="@drawable/btn_arrow_selector"
+                    android:gravity="center_vertical"
+                    android:hint="地质情况"
+                    android:padding="@dimen/dimen_5_dp"
+                    android:textColor="@color/delect_color"
+                    android:textSize="@dimen/text_size_12_sp" />
+
+                <CheckedTextView
+                    android:id="@+id/tv_cyqk"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dimen_5_dp"
+                    android:background="@drawable/shape_input_bg"
+                    android:drawableRight="@drawable/btn_arrow_selector"
+                    android:gravity="center_vertical"
+                    android:hint="冲淤情况"
+                    android:padding="@dimen/dimen_5_dp"
+                    android:textColor="@color/delect_color"
+                    android:textSize="@dimen/text_size_12_sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

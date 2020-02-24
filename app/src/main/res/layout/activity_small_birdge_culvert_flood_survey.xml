@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/title_layout"
+        layout="@layout/layout_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_5_dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/dimen_5_dp"
+            android:text="年份"
+            android:textColor="@color/delect_color"
+            android:textSize="@dimen/text_size_12_sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_nf"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginRight="@dimen/dimen_5_dp"
+            android:layout_weight="2"
+            android:background="@drawable/shape_input_bg"
+            android:ems="5"
+            android:gravity="center_vertical"
+            android:inputType="numberDecimal"
+            android:padding="@dimen/dimen_5_dp"
+            android:singleLine="true"
+            android:textColor="@color/delect_color"
+            android:textSize="@dimen/text_size_12_sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_5_dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/dimen_5_dp"
+            android:text="标高"
+            android:textColor="@color/delect_color"
+            android:textSize="@dimen/text_size_12_sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_bg"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginRight="@dimen/dimen_5_dp"
+            android:layout_weight="2"
+            android:background="@drawable/shape_input_bg"
+            android:ems="5"
+            android:gravity="center_vertical"
+            android:inputType="numberDecimal"
+            android:padding="@dimen/dimen_5_dp"
+            android:singleLine="true"
+            android:textColor="@color/delect_color"
+            android:textSize="@dimen/text_size_12_sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_5_dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/dimen_5_dp"
+            android:text="位置"
+            android:textColor="@color/delect_color"
+            android:textSize="@dimen/text_size_12_sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_wz"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginRight="@dimen/dimen_5_dp"
+            android:layout_weight="2"
+            android:background="@drawable/shape_input_bg"
+            android:ems="5"
+            android:gravity="center_vertical"
+            android:inputType="numberDecimal"
+            android:padding="@dimen/dimen_5_dp"
+            android:singleLine="true"
+            android:textColor="@color/delect_color"
+            android:textSize="@dimen/text_size_12_sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_5_dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="@dimen/dimen_5_dp"
+            android:text="周期"
+            android:textColor="@color/delect_color"
+            android:textSize="@dimen/text_size_12_sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_zq"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginRight="@dimen/dimen_5_dp"
+            android:layout_weight="2"
+            android:background="@drawable/shape_input_bg"
+            android:ems="5"
+            android:gravity="center_vertical"
+            android:inputType="numberDecimal"
+            android:padding="@dimen/dimen_5_dp"
+            android:singleLine="true"
+            android:textColor="@color/delect_color"
+            android:textSize="@dimen/text_size_12_sp" />
+    </LinearLayout>
+
+</LinearLayout>

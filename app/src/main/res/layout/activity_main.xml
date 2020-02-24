@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <FrameLayout
+            android:id="@+id/fl_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"></FrameLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <CheckedTextView
+                android:id="@+id/ctv_map"
+                style="@style/TextNornal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:drawableTop="@drawable/selector_map"
+                android:drawablePadding="5dp"
+                android:gravity="center_horizontal"
+                android:padding="10dp"
+                android:text="地图"
+                android:textAlignment="center"
+                android:textColor="@drawable/tab_selector_color" />
+
+            <CheckedTextView
+                android:id="@+id/ctv_edit"
+                style="@style/TextNornal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/selector_edit"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="编辑"
+                android:textAlignment="center"
+                android:textColor="@drawable/tab_selector_color" />
+
+
+            <CheckedTextView
+                android:id="@+id/ctv_project"
+                style="@style/TextNornal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/selector_project"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="项目"
+                android:textAlignment="center"
+                android:textColor="@drawable/tab_selector_color" />
+
+            <CheckedTextView
+                android:id="@+id/ctv_more"
+                style="@style/TextNornal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableTop="@drawable/selector_more"
+                android:drawablePadding="5dp"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="更多"
+                android:textAlignment="center"
+                android:textColor="@drawable/tab_selector_color" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

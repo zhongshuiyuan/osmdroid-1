@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".more.mapdownload.ChooseDownloadTypeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/title_layout"
+            layout="@layout/layout_title" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp_10">
+
+            <RadioButton
+                android:id="@+id/rb_ract"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:checked="true"
+                android:text="手绘区域下载" />
+
+            <RadioButton
+                android:id="@+id/rb_choose"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="选择区域下载" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp_10">
+
+            <TextView
+                style="@style/TextNornal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dimen_15_dp"
+                android:text="地图类型选择"
+                android:textSize="@dimen/sp_16" />
+
+            <CheckedTextView
+                android:id="@+id/tv_map_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:background="@drawable/shape_input"
+                android:drawableRight="@mipmap/arrow_down"
+                android:gravity="center_vertical|right"
+                android:padding="@dimen/dimen_10_dp"
+                android:text="Google地图"
+                android:textColor="@color/delect_color"
+                android:textSize="@dimen/text_size_16_sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="@dimen/dp_10">
+
+            <TextView
+                style="@style/TextNornal"
+                android:text="地图级别"
+                android:textSize="@dimen/text_size_16_sp" />
+
+            <SeekBar
+                android:id="@+id/seek_bar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:max="18"
+                android:progress="16" />
+
+            <TextView
+                android:id="@+id/tv_progress"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:text="16"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/text_size_16_sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_area"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/dp_10"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/TextNornal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dimen_15_dp"
+                    android:text="系统区域"
+                    android:textSize="@dimen/sp_16" />
+
+                <CheckedTextView
+                    android:id="@+id/tv_jq"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_input_bg"
+                    android:clickable="true"
+                    android:drawableRight="@drawable/btn_arrow_selector"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/dimen_10_dp"
+                    android:text="郊区只下载十五级"
+                    android:textColor="@color/delect_color"
+                    android:textSize="@dimen/text_size_16_sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_area_choose"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingTop="@dimen/dp_10"
+                android:paddingBottom="@dimen/dp_10">
+
+                <TextView
+                    style="@style/TextNornal"
+                    android:text="区域"
+                    android:textSize="@dimen/text_size_16_sp" />
+
+                <TextView
+                    android:id="@+id/tv_area_choose"
+                    style="@style/TextNornal"
+                    android:layout_width="match_parent"
+                    android:drawableRight="@mipmap/arrow_right"
+                    android:gravity="right"
+                    android:text="请选择"
+                    android:textSize="@dimen/text_size_16_sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
